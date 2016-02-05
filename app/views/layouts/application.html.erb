@@ -6,6 +6,7 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 	<link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+       <link rel="shortcut icon" type="image/x-icon" href="https://cdn.codementor.io/assets/topic/category_header/ruby-on-rails.png" />
 	</head>
 	<body id="page-top">
 	<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
@@ -18,7 +19,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">intro</a>
+                <%= link_to "intro" , root_path , class:"navbar-brand page-scroll" %>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->

@@ -1,0 +1,16 @@
+
+<% @post.each do |post|%>
+    <div class="container-fluid margin">
+        <div class="row">
+      <div class="panel panel-info">
+        <div class="panel-heading"><%= post.title %></div>
+        <div class="panel-body">
+          <%= post.content %>
+          <p><%= post.created_at.strftime("%c") %></p>
+        </div>
+        <%= link_to "Read More" ,post ,class:"a" %>
+      </div>
+        </div>
+      </div>
+      <hr>
+<% end %>
