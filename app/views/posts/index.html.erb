@@ -11,6 +11,9 @@
         <%= link_to "Read More" ,post ,class:"a" %>
       </div>
         </div>
-      </div>
+      </div> 
       <hr>
-<% end %>
+  <% end %>
+  <div id="pages">
+<%= will_paginate @post %>
+</div>

@@ -3,6 +3,21 @@ nav{
   height:auto;
 }
 }
+#pages 
+{
+    text-align: center!important;
+}
+#pages .pagination a
+{
+    background-color: #ffffff;
+    color: gray;
+    border-radius: 50%;
+    padding: 0.4em 0.7em;
+}
+#pages .pagination a:hover
+{
+  text-decoration: none;
+}
 .text_area
 {
     width: 100%;
